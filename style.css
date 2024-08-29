@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: Century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(grads.jpeg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: (translate(-50% ,-50%));
+}
+
+.title h1{
+    color:beige;
+    font-size: 50px;
+
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: (translate(-50% ,-50%));
+}
+
+.btn{
+    border:1px solid #fff;
+    padding: 5px 20px;
+    color:#fff;
+    transition: 0.5 ease;
+    font-size: 17px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+p{
+    color:darkseagreen;
+}
